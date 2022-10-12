@@ -1,0 +1,39 @@
+.card{
+    max-width: 550px;
+    
+}
+.card-header{
+    position: relative;
+}
+.card-header>h3{
+    position: absolute;
+    bottom:10px;
+    left:10px;
+    font-size:1.3rem;
+    color:white;
+    text-shadow:0px 2px 4px black;
+}
+.card-header>h5{
+    position:absolute;
+    bottom:10px;
+    right:10px; 
+    font-size:16px;
+    color:white;
+    text-shadow:0px 2px 4px black;
+}
+.picture{
+    width:550px;
+    height:155px;
+    overflow: hidden;
+}
+.picture img{
+    width:100%;
+    height:auto;
+}
+.card-body>ul>li{
+    margin-bottom:6px;
+}
+
+.pages .page-link.disabled {
+    pointer-events: none;
+}
